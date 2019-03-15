@@ -68,7 +68,6 @@ static void * const xwAdd_callbackConfig_key = "xwAdd_callbackConfig_key";
     
     //构建请求对象
     PayReq *req = [PayReq new];
-    req.openID = appID;
     req.partnerId = partnerId;
     req.prepayId = prepayId;
     req.nonceStr = nonceStr;
