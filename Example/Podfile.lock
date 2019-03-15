@@ -1,0 +1,22 @@
+PODS:
+  - EPPayKit/Alipay (1.0.0)
+  - EPPayKit/Core (1.0.0):
+    - EPPayKit/Alipay
+    - EPPayKit/UnionPay
+    - EPPayKit/Wechat
+  - EPPayKit/UnionPay (1.0.0)
+  - EPPayKit/Wechat (1.0.0)
+
+DEPENDENCIES:
+  - EPPayKit/Core (from `../`)
+
+EXTERNAL SOURCES:
+  EPPayKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EPPayKit: ddbff25f1b87adb94f824be786f641478c0a80a4
+
+PODFILE CHECKSUM: 835a89d545000c5f9d94c9faf07166c6334bae0a
+
+COCOAPODS: 1.6.0
