@@ -19,10 +19,9 @@
 
 +(void)load
 {
+    Method openURLMethod = class_getInstanceMethod(self, @selector(application:openURL:options:));
     
-    Method openURLMethod = class_getClassMethod(self, @selector(application:openURL:options:));
-    
-    Method myOpenURLMethod = class_getClassMethod(self, @selector(eppay_application:openURL:options:));
+    Method myOpenURLMethod = class_getInstanceMethod(self, @selector(eppay_application:openURL:options:));
     
     //交换
     method_exchangeImplementations(openURLMethod, myOpenURLMethod);
