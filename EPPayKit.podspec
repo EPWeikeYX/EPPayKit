@@ -36,6 +36,8 @@ TODO: Add long description of the pod here.
         cs.dependency 'EPPayKit/Wechat'
         cs.dependency 'EPPayKit/Alipay'
         cs.dependency 'EPPayKit/UnionPay'
+        cs.source_files = 'EPPayKit/Classes/*.{h,m}'
+        cs.public_header_files = 'EPPayKit/Classes/*.h'
     end
     
     s.subspec 'Wechat' do |ss|

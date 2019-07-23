@@ -7,11 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		368575672220E1A800668403 /* WXApi+XWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 368575642220E1A800668403 /* WXApi+XWAdd.m */; };
-		368575682220E1A800668403 /* AlipaySDK+XWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 368575652220E1A800668403 /* AlipaySDK+XWAdd.m */; };
-		3685756B2220E26A00668403 /* EPPayKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3685756A2220E26A00668403 /* EPPayKit.m */; };
-		3685756E2220EDCB00668403 /* AppDelegate+EPPayKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3685756D2220EDCB00668403 /* AppDelegate+EPPayKit.m */; };
 		3685756F2220EE9500668403 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59C195388D20070C39A /* AppDelegate.h */; };
+		36D834C422E6F9BF00215924 /* AppDelegate+EPPayKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D834C222E6F9BF00215924 /* AppDelegate+EPPayKit.m */; };
 		4EBA422F7D1A94872AC2D5F2 /* Pods_EPPayKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFA0867485E993C7AC1837D /* Pods_EPPayKit_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -45,14 +42,8 @@
 		059DDAFFCFA7E4443722CA80 /* Pods-EPPayKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EPPayKit_Example.release.xcconfig"; path = "Target Support Files/Pods-EPPayKit_Example/Pods-EPPayKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		098F8635E3C434AD12EADA15 /* Pods_EPPayKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EPPayKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A6D0690F31B7E53863E9B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		368575612220E1A800668403 /* AlipaySDK+XWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AlipaySDK+XWAdd.h"; sourceTree = "<group>"; };
-		368575622220E1A800668403 /* WXApi+XWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXApi+XWAdd.h"; sourceTree = "<group>"; };
-		368575642220E1A800668403 /* WXApi+XWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WXApi+XWAdd.m"; sourceTree = "<group>"; };
-		368575652220E1A800668403 /* AlipaySDK+XWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AlipaySDK+XWAdd.m"; sourceTree = "<group>"; };
-		368575692220E26A00668403 /* EPPayKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPPayKit.h; sourceTree = "<group>"; };
-		3685756A2220E26A00668403 /* EPPayKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPPayKit.m; sourceTree = "<group>"; };
-		3685756C2220EDCB00668403 /* AppDelegate+EPPayKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+EPPayKit.h"; sourceTree = "<group>"; };
-		3685756D2220EDCB00668403 /* AppDelegate+EPPayKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+EPPayKit.m"; sourceTree = "<group>"; };
+		36D834C222E6F9BF00215924 /* AppDelegate+EPPayKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+EPPayKit.m"; sourceTree = "<group>"; };
+		36D834C322E6F9BF00215924 /* AppDelegate+EPPayKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+EPPayKit.h"; sourceTree = "<group>"; };
 		44847C8F3416CA704F59FB98 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* EPPayKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPPayKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -118,22 +109,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		368575602220E1A800668403 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				368575612220E1A800668403 /* AlipaySDK+XWAdd.h */,
-				368575652220E1A800668403 /* AlipaySDK+XWAdd.m */,
-				368575622220E1A800668403 /* WXApi+XWAdd.h */,
-				368575642220E1A800668403 /* WXApi+XWAdd.m */,
-				368575692220E26A00668403 /* EPPayKit.h */,
-				3685756A2220E26A00668403 /* EPPayKit.m */,
-				3685756C2220EDCB00668403 /* AppDelegate+EPPayKit.h */,
-				3685756D2220EDCB00668403 /* AppDelegate+EPPayKit.m */,
-			);
-			name = Classes;
-			path = ../../EPPayKit/Classes;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -171,7 +146,8 @@
 		6003F593195388D20070C39A /* Example for EPPayKit */ = {
 			isa = PBXGroup;
 			children = (
-				368575602220E1A800668403 /* Classes */,
+				36D834C322E6F9BF00215924 /* AppDelegate+EPPayKit.h */,
+				36D834C222E6F9BF00215924 /* AppDelegate+EPPayKit.m */,
 				6003F59C195388D20070C39A /* AppDelegate.h */,
 				6003F59D195388D20070C39A /* AppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -236,7 +212,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				905DB796E30185919D38833F /* [CP] Copy Pods Resources */,
+				3008FCB1EFF307166161EC54 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -289,6 +265,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -348,6 +325,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		3008FCB1EFF307166161EC54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EPPayKit_Example/Pods-EPPayKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/EPPayKit/EPPayKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EPPayKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EPPayKit_Example/Pods-EPPayKit_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7FFEEAA2826185E84FD9BBCD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -370,28 +365,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		905DB796E30185919D38833F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EPPayKit_Example/Pods-EPPayKit_Example-resources.sh",
-				"${PODS_ROOT}/../../EPPayKit/Lib/Alipay/AlipaySDK.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlipaySDK.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EPPayKit_Example/Pods-EPPayKit_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -400,12 +373,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3685756F2220EE9500668403 /* AppDelegate.h in Sources */,
-				3685756B2220E26A00668403 /* EPPayKit.m in Sources */,
-				368575672220E1A800668403 /* WXApi+XWAdd.m in Sources */,
-				3685756E2220EDCB00668403 /* AppDelegate+EPPayKit.m in Sources */,
+				36D834C422E6F9BF00215924 /* AppDelegate+EPPayKit.m in Sources */,
 				6003F59E195388D20070C39A /* AppDelegate.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				368575682220E1A800668403 /* AlipaySDK+XWAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
