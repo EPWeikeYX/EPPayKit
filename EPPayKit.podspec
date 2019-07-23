@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'EPPayKit'
-    s.version          = '1.0.0'
+    s.version          = '1.0.1'
     s.summary          = 'iOS 微信支付、支付宝支付、银联支付集成'
 
 # This description is used to generate tags and improve search results.
